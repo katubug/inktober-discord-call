@@ -59,7 +59,7 @@ function constructMessage() {
   const date = getDate();
   const theme = topics[today.getDate()];
   const closing = selectRandomFrom(finishings);
-  return `${opening} It is the ${date} of Witchtember and today's theme is **${theme}**. ${closing}`;
+  return `${opening} <@1014619264306659339> It is the ${date} of Witchtember and today's theme is **${theme}**. ${closing}`;
 }
 
 function selectRandomFrom(selection) {
